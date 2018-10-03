@@ -1,0 +1,27 @@
+.banner{
+	background: url("../beer_mug.jpg");
+	width: 100%;
+	background-size: cover;
+}
+
+.banner-text{
+	display: flex;
+	padding: 15% 0;
+}
+
+.banner-text-items{
+	color: #000;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+.banner-text-items h2{
+	font-size: 3em;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.banner-text-items p{
+	font-size:18px; 
+}
