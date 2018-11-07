@@ -27,6 +27,8 @@
 	color: #000;
 	font-size: 20px;
 	text-decoration: none;
+	font-family: 'Merriweather', serif;
+
 }
 
 @media (max-width: 600px) {

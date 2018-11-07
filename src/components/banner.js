@@ -12,8 +12,7 @@ class Banner extends Component {
       <div className='banner-text'>
         <div className ='banner-text-items'>
           <h2>Midland Beer Garden</h2>
-          <p>Example of paragraph text if we want to add any tag lines
-            or brief descriptions on the banner section.
+          <p>Example Extra Content Text!
           </p>
         </div>
       </div>

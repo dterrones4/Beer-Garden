@@ -2,6 +2,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	padding: 5% 0;
+	height: 100vh;
 }
 
 .main1{
