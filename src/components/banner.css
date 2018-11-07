@@ -7,6 +7,7 @@
 .banner-text{
 	display: flex;
 	padding: 15% 0;
+
 }
 
 .banner-text-items{
@@ -24,4 +25,28 @@
 
 .banner-text-items p{
 	font-size:18px; 
+}
+
+@media (min-width: 1200px) {
+	.banner{
+		height: 100vh;
+	}
+}
+
+@media (max-width: 1200px ) {
+	.banner{
+		height: 95vh;
+	}
+}
+
+@media (max-width: 1000px) {
+	.banner{
+		height: 80vh;
+	}
+}
+
+@media(max-width: 600px){
+	.banner{
+		height: 50vh;
+	}
 }

@@ -1,0 +1,27 @@
+@media (min-width: 600px) {
+	.mobile-nav{
+		display: none;
+	}
+}
+
+.mobile-nav{
+	flex: 3px;
+}
+
+.mobile-nav ul{
+	display: flex;
+	list-style: none;
+	margin-top: 30px;
+	flex-flow: row wrap;
+}
+
+.mobile-nav ul li{
+	flex: 1;
+	text-align: center;
+}
+
+.mobile-nav ul li a {
+	color: #000;
+	font-size: 20px;
+	text-decoration: none;
+}

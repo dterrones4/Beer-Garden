@@ -1,14 +1,10 @@
 .top-bar{
-	background-color: #000;
+	background-color: none;
 	display: flex;
-	width: 100%;
+	width: 50%;
 	height: auto;
-}
-
-.logo img{
-	flex: 1;
-	height: 10vh;
-	width: 15vh;
+	position: relative;
+	left: 50vw;
 }
 
 .nav{
@@ -28,7 +24,13 @@
 }
 
 .nav ul li a {
-	color: #fff;
+	color: #000;
 	font-size: 20px;
 	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	.top-bar{
+		display:none;
+	}
 }

@@ -7,7 +7,6 @@ class TopBar extends Component {
   render() {
     return (
 			<div className='top-bar'>
-				<div className='logo'><img src={ Logo }></img></div>
 				<div className='nav'>
 					<ul>
 						<li><a href='#'>Home</a></li>

@@ -1,0 +1,11 @@
+.nav-btn{
+	background: none;
+	border: none;
+	padding: 10px;
+}
+
+@media (min-width: 601px) {
+	.nav-btn{
+		display: none;
+	}
+}
